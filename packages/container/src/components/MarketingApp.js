@@ -9,6 +9,8 @@ import React, {
 export default () => {
     const ref = useRef(null);
 
+    console.log(mount);
+
     useEffect(() => {
         mount(ref.current);
     }, []);
